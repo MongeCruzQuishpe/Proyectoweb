@@ -1,0 +1,48 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5, .modalSB1, .modalSB2, .modalSB3, .modalSB4, .modalSB5, .modalSB6, .modalSB7, .modalSB8, .modalSB9, .modalSB10, .modalSB11, .modalSB12, .modalH1, .modalH2, .modalH3, .modalH4, .modalH5, .modalH6, .modalL1, .modalL2, .modalL3, .modalL4, .modalL5, .modalL6, .modalG1, .modalG2, .modalG3, .modalG4, .modalG5, .modalG6, .modalV1, .modalV2, .modalV3, .modalV4, .modalV5, .modalV6, .modalV7, .modalV8, .modalV9, .modalV10, .modalV11, .modalV12, .modalV13, .modalV14, .modalV15{
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content, .modal-content1, .modal-content2, .modal-content3, .modal-content4, .modal-content5, .modal-contentSB1, .modal-contentSB2, .modal-contentSB3, .modal-contentSB4, .modal-contentSB5, .modal-contentSB6, .modal-contentSB7, .modal-contentSB8, .modal-contentSB9, .modal-contentSB10, .modal-contentSB11, .modal-contentSB12, .modal-contentH1, .modal-contentH2, .modal-contentH3, .modal-contentH4, .modal-contentH5, .modal-contentH6, .modal-contentL1, .modal-contentL2, .modal-contentL3,  .modal-contentL4, .modal-contentL5, .modal-contentL6,
+.modal-contentG1, .modal-contentG2, .modal-contentG3,.modal-contentG4, .modal-contentG5, .modal-contentG6, .modal-contentV1, .modal-contentV2, .modal-contentV3, .modal-contentV4, .modal-contentV5, .modal-contentV6, .modal-contentV7 , .modal-contentV8, .modal-contentV9, .modal-contentV10, .modal-contentV11, .modal-contentV12, .modal-contentV13, .modal-contentV14, .modal-contentV15 {
+    background-color: #dff7f0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close , .close1, .close2, .close3, .close4, .close5, .closeSB1, .closeSB2, .closeSB3, .closeSB4, .closeSB5, .closeSB6, .closeSB7, .closeSB8, .closeSB9, .closeSB10, .closeSB11, .closeSB12, .closeH1, .closeH2, .closeH3, .closeH4, .closeH5, .closeH6, .closeL1, .closeL2, .closeL3,  .closeL4, .closeL5, .closeL6,
+  .closeG1, .closeG2, .closeG3,.closeG4, .closeG5, .closeG6, .closeV1, .closeV2, .closeV3, .closeV4, .closeV5, .closeV6, .closeV7, .closeV8, .closeV9, .closeV10, .closeV11, .closeV12, .closeV13, .closeV14, .closeV15{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover, .close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover, .closeSB1:hover,.closeSB2:hover,.closeSB3:hover, .closeSB4:hover,.closeSB5:hover,.closeSB6:hover, .closeSB7:hover,.closeSB8:hover,.closeSB9:hover, .closeSB10:hover,.closeSB11:hover,.closeSB12:hover,.closeH1:hover,.closeH2:hover,.closeH3:hover,.closeH4:hover,.closeH5:hover,.closeH6:hover,.closeL1:hover,.closeL2:hover,.closeL3:hover,.closeL4:hover,.closeL5:hover,.closeL6:hover,
+  .closeG1:hover,.closeG2:hover,.closeG3:hover,.closeG4:hover,.closeG5:hover,.closeG6:hover,.closeV1:hover,.closeV2:hover,.closeV3:hover, .closeV4:hover,.closeV5:hover,.closeV6:hover,.closeV7:hover,.closeV8:hover,.closeV9:hover,.closeV10:hover,.closeV11:hover,.closeV12:hover,.closeV13:hover,.closeV14:hover,.closeV15:hover,
+  .close:focus, .close1:focus, .close2:focus ,.close3:focus, .close4:focus, .close5:focus ,.closeSB1:focus ,.closeSB2:focus,.closeSB3:focus,.closeSB4:focus ,.closeSB5:focus,.closeSB6:focus,.closeSB7:focus ,.closeSB8:focus,.closeSB9:focus,.closeSB10:focus ,.closeSB11:focus,.closeSB12:focus,.closeH1:focus,.closeH2:focus,.closeH3:focus,.closeH4:focus,.closeH5:focus,.closeH6:focus,.closeL1:focus,.closeL2:focus,.closeL3:focus,.closeL4:focus,.closeL5:focus,.closeL6:focus,
+  .closeG1:focus,.closeG2:focus,.closeG3:focus,.closeG4:focus,.closeG5:focus,.closeG6:focus, .closeV1:focus,.closeV2:focus,.closeV3:focus, .closeV4:focus,.closeV5:focus,.closeV6:focus, .closeV7:focus,.closeV8:focus,.closeV9:focus, .closeV10:focus,.closeV11:focus,.closeV12:focus, .closeV13:focus,.closeV14:focus,.closeV15:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .text{
+      font-size: 50px;
+      color: black;
+  }
+  
+  .img{
+      width: 150px;
+      left: 150px;
+      
+  }
