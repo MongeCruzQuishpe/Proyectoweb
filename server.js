@@ -2,7 +2,7 @@ const express = require('express')
 const server = express()
 
 
-
+const port = process.env.PORT || 8081;
 
 const path = require('path')
 
@@ -42,6 +42,6 @@ server.get('/Contactos', function(req, res){
     res.sendFile(__dirname+ '/public/contactos.html')
 });
 
-server.listen(8081, ()=>{
-    console.log("Servidor ejecutandose en el puerto 8081");
+server.listen(port,()=>{
+    console.log(`Escuchando peticiones en el puerto ${port}`);
 });
